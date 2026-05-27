@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/card.css">
 </head>
 <body>
-    <div class="navbar">
+  <div class="navbar">
         <a href="index.html">Home</a>
         <a href="card.html">card</a>
         <a href="toggle.html">toggle</a>
         <a href="randomUser.html">randomUser</a>
     </div>
-  <h1> hello html!</h1>
-   <!-- <div class="card">
-        <img id="userImage" src="img/john.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4 id="userName"><b>John Doe</b></h4> +
-            <p id="userGender">Male</p> 
+    <div class="card">
+        <img src="img/img_avatar2.png" alt="Avatar" style="width:100%">
+        <div class="card-content">
+            <h4 id="userName"><b>doe</b></h4>
+            <p id="userGender">female</p> 
         </div>
-    </div>-->
+        <button onclick="getAndDisplayRandomUser()">Get Random User</button>
+    </div>
     <script src="js/site.js"></script>
+    <script src="js/randomUser.js"></script>
 </body>
 </html>
