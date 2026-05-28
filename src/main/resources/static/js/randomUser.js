@@ -1,7 +1,9 @@
+
 function displayUser(user) {
-    document.getElementById("userName").src = user.image;
-    document.getElementById("userEmail").textContent = user.name;
-    document.getElementById("userPicture").textContent= user.gender;
+    document.getElementById("userName").textContent = user.name;
+    document.getElementById("userGender").textContent = user.gender;
+    document.getElementById("userPicture").src = user.image;
+    console.log(user.image);
 }
 function getAndDisplayRandomUser() {
     fetch("https://randomuser.me/api")
